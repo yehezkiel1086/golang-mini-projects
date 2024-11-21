@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="/static/script.js" defer></script>
+    <title>Album Library</title>
+  </head>
+  <body>
+    <!-- <header>
+      <h1>Album Library</h1>
+    </header> -->
+    <main>
+      <section id="album-list">
+        <h2>✨ Albums</h2>
+        <ul id="albums"></ul>
+      </section>
+      <section id="add-album">
+        <h2>🆕 Add New Album</h2>
+        <form id="album-form">
+          <input type="text" id="title" placeholder="Title" required />
+          <input type="text" id="artist" placeholder="Artist" required />
+          <input
+            type="number"
+            id="price"
+            placeholder="Price"
+            step="0.01"
+            required
+          />
+          <button type="submit">Add Album</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
